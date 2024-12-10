@@ -75,6 +75,8 @@ terraform state push <state_file>  # Push a local state file to the remote backe
 
 terraform state    # List all state commands
 
+terraform apply -refresh-only        # Refresh the state of terraform.
+
 ```
 
 ## 5.Terraform Import
