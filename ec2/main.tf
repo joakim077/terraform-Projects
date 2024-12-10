@@ -1,5 +1,5 @@
 resource "aws_key_pair" "main" {
-    public_key = file("~.ssh/ec2_key.pub")
+    public_key = file("~/.ssh/ec2_key.pub")
     key_name = "ec2_key"
 }
 
