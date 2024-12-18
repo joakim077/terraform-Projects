@@ -12,7 +12,7 @@ variable "vpc_config" {
 }
 
 variable "subnet_config" {
-    description = "enter CIDR and AZ of VPC"
+    description = "CIDR and AZ of Subnet"
     type = map(object({
        cidr = string
        az = string 
